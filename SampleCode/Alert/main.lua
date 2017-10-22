@@ -1,7 +1,10 @@
 ----------------------------------------------------------------------
 --
 -- Local Notifications for MacOS - Corona SDK Plugin Sample Project.
--- Alert notification example - with buttons.
+-- Alert notification example - with buttons
+--
+-- Remeber to add the NSUserNotificationAlertStyle = "alert" entry in 
+-- the build settings when using alert style notifications!!
 --
 ----------------------------------------------------------------------
 

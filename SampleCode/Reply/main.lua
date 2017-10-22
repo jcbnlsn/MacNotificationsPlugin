@@ -3,6 +3,9 @@
 -- Local Notifications for MacOS - Corona SDK Plugin Sample Project.
 -- Alert notification example with reply text field.
 --
+-- Remeber to add the NSUserNotificationAlertStyle = "alert" entry in 
+-- the build settings when using alert style notifications!!
+--
 ----------------------------------------------------------------------
 
 local notifications = require "plugin.notifications.macos"
