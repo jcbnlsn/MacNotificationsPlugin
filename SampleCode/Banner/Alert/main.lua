@@ -19,7 +19,7 @@ local function notificationListener( event )
         -- The notification was delivered
     elseif ( event.type == "didActivateNotification" ) then
         -- User activated the notification. Handle the response.
-	  if event.activationType == 2 then -- The user clicked on the action button.
+		if event.activationType == 2 then -- The user clicked on the action button.
 			system.openURL("http://www.shakebrowser.net/corona-for-xcode/")
         end
     end
