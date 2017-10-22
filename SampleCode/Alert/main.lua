@@ -11,7 +11,7 @@ local inspect = require "inspect" -- library for inspecting lua tables
 local isSimulator = "simulator" == system.getInfo("environment")
 
 -- Add event listener for notification events
-local function notificationListener( event )
+local function notificationListener( event ) 
 	
 	print (inspect(event))
 	
