@@ -41,11 +41,11 @@ local notifications = require "plugin.notifications.macos"
 
 Schedules a notification and returns a notification id (string)
 
-**secondsFromNow** number (optional)
+- **secondsFromNow** number (optional)
 
 The time in seconds (from now)  that the notification will dispatch. If you omit this parameter the notification will be dispatched instead of scheduled.
 
-**options**( table)
+- **options**( table)
 
 A table containing the options of the notification. See options example below.
 
