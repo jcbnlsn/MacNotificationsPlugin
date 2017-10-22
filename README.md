@@ -88,8 +88,8 @@ Returns a table with information about all the notifications your app has schedu
 #### notifications.getDeliveredNotifications()
 Returns a table with information about all the notifications your app has delivered (visible in the notification center).
 
-#### notifications.setBadge([number])
-Sets the application icon badge counter. If number is nil it will clear the badge.
+#### notifications.setBadge([string])
+Sets the application icon badge. If nil is passed it will clear the badge. Notice you can use the badge to write a message or as a counter by passing in a number casted as a string.
 
 
 
