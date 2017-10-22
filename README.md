@@ -6,7 +6,7 @@ Documentation and samplecode for:
 https://marketplace.coronalabs.com/plugin/???
 
 
-This plugin provides access to the Notification Center on MacOS.  It allows you to schedule/dispatch local notification as banners or notification alerts. Banners are regular notifications and alerts are notifications with buttons or text reply fields.
+This plugin provides access to the Notification Center on MacOS.  It allows you to schedule/dispatch local notifications as banners or notification alerts. Banners are regular notifications and alerts are notifications with buttons or text reply fields.
 
 
 
