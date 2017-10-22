@@ -1,0 +1,23 @@
+
+settings =
+{
+    window = {
+        defaultViewWidth = 1024,
+        defaultViewHeight = 768,
+    },
+
+	macos =
+    {
+        plist =
+        {
+		-- Add this entry if you want alert style notifications
+		NSUserNotificationAlertStyle = "alert",
+        },
+    },
+
+    --[[
+    plugins = {
+        ["plugin.notifications.macos"] = { publisherId = "net.shakebrowser" }
+    }
+    --]]
+}

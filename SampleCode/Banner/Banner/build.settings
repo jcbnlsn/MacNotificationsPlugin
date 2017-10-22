@@ -1,0 +1,14 @@
+
+settings =
+{
+    window = {
+        defaultViewWidth = 1024,
+        defaultViewHeight = 768,
+    },
+
+    --[[
+    plugins = {
+        ["plugin.notifications.macos"] = { publisherId = "net.shakebrowser" }
+    }
+    --]]
+}
