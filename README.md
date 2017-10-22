@@ -24,8 +24,8 @@ settings =
     {
         plist =
         {
-			-- Add this entry if you want alert style notifications
-			NSUserNotificationAlertStyle = "alert",
+		-- Add this entry if you want alert style notifications
+		NSUserNotificationAlertStyle = "alert",
         },
     },
 }
