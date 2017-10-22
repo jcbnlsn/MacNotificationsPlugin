@@ -37,7 +37,7 @@ local notifications = require "plugin.notifications.macos"
 
 
 ## **Functions**
-#### **notifications.scheduleNotification( [secondsFromNow], options )**
+### **notifications.scheduleNotification( [secondsFromNow], options )**
 
 Schedules a notification and returns a notification id (string)
 
@@ -76,19 +76,19 @@ local options = {
 }
 ```
 
-#### notifications.removeScheduledNotification( notificationId )
+### notifications.removeScheduledNotification( notificationId )
 Cancels and removes a scheduled notification.
 
-#### notifications.removeDeliveredNotification([notificationId])
+### notifications.removeDeliveredNotification([notificationId])
 Removes a delivered notification from the notification center of MacOS. If you omit the notificationId this call will remove all delivered notifications coming from your application.
 
-#### notifications.getScheduledNotifications()
+### notifications.getScheduledNotifications()
 Returns a table with information about all the notifications your app has scheduled.
 
-#### notifications.getDeliveredNotifications()
+### notifications.getDeliveredNotifications()
 Returns a table with information about all the notifications your app has delivered (visible in the notification center).
 
-#### notifications.setBadge([string])
+### notifications.setBadge([string])
 Sets the application icon badge. If nil is passed it will clear the badge. Notice you can use the badge to write a message or as a counter by passing in a number casted as a string.
 
 
