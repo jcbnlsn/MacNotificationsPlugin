@@ -10,7 +10,7 @@ local inspect = require "inspect" -- library for inspecting lua tables
 
 -- Add event listener for notification events
 local function notificationListener( event )
-	
+
 	print (inspect(event)) 
 	
     if ( event.type == "didDeliverNotification" ) then
