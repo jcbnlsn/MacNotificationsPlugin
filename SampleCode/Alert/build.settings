@@ -15,9 +15,7 @@ settings =
         },
     },
 
-    --[[
     plugins = {
         ["plugin.notifications.macos"] = { publisherId = "net.shakebrowser" }
     }
-    --]]
 }
