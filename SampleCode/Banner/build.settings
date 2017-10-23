@@ -6,9 +6,7 @@ settings =
         defaultViewHeight = 768,
     },
 
-    --[[
     plugins = {
         ["plugin.notifications.macos"] = { publisherId = "net.shakebrowser" }
     }
-    --]]
 }
