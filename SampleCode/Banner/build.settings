@@ -5,6 +5,15 @@ settings =
         defaultViewWidth = 1024,
         defaultViewHeight = 768,
     },
+    
+    macos =
+    {
+        plist =
+        {
+		-- Add this entry if you want banner style notifications
+		NSUserNotificationAlertStyle = "banner",
+        },
+    },
 
     plugins = {
         ["plugin.notifications.macos"] = { publisherId = "net.shakebrowser" }
