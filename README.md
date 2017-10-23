@@ -11,7 +11,7 @@ This plugin provides access to the Notification Center on MacOS.  It allows you 
 
 
 ## **Project Settings**
-To use this plugin, add an entry into the plugins table of build.settings. If you want your application to throw alert style notifications you need to add the NSUserNotificationAlertStyle = "alert" entry in the build settings plist table (default style is banner). After this you can import the plugin with:
+To use this plugin, add an entry into the plugins table of build.settings. If you want your application to throw alert style notifications you need to add the NSUserNotificationAlertStyle = "alert" entry in the build settings plist table (default style is banner).
 
 ```lua
 settings =
