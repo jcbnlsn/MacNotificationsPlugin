@@ -3,7 +3,7 @@
 Documentation and samplecode for:
 
 ## **MacOS Local Notifications Plugin for Corona SDK**
-https://marketplace.coronalabs.com/plugin/???
+https://marketplace.coronalabs.com/plugin/local-notifications
 
 
 This plugin provides access to the Notification Center on MacOS.  It allows you to schedule/dispatch local notifications as banners or notification alerts. Banners are regular notifications and alerts are notifications with buttons or text reply fields.
