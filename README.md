@@ -8,7 +8,7 @@ https://marketplace.coronalabs.com/plugin/local-notifications
 
 This plugin provides access to the Notification Center on MacOS.  It allows you to schedule/dispatch local notifications as banners or notification alerts. Banners are regular notifications and alerts are notifications with buttons or text reply fields.
 
-    ![illustration](https://raw.githubusercontent.com/jcbnlsn/MacNotificationsPlugin/master/illustration.jpg)
+![illustration](https://raw.githubusercontent.com/jcbnlsn/MacNotificationsPlugin/master/illustration.jpg)
 
 ## **Project Settings**
 To use this plugin, add an entry into the plugins table of build.settings. If you want your application to throw alert style notifications you need to add the NSUserNotificationAlertStyle = "alert" entry in the build settings plist table (default style is banner).
