@@ -26,6 +26,7 @@ settings =
         {
 		-- Add this entry if you want alert style notifications
 		NSUserNotificationAlertStyle = "alert",
+		--NSUserNotificationAlertStyle = "banner",
         },
     },
 }
