@@ -136,6 +136,7 @@ A notification event returns a table of information which you can use to manage 
 
 ## **Gotchas**
 - Banner style notifications will show in the Corona Simulator, but alert style notifications will show as banner style notifications too (no buttons or reply fields will show). To test alerts you need create a build for MacOS.
+- For alerts to work properly you need to build with a provisioning file.
 
 ## **Examples**
 Sample code can be found in this repository.
